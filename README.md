@@ -1,2 +1,2 @@
-# intagram-post-1er
+# instagram-post-1er
 primer proyecto del curso
