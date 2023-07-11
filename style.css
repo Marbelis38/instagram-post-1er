@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #121212;
 }
@@ -6,11 +9,13 @@ body{
     background-color: white;
     width: 470px;
     flex-direction: column; 
+    overflow: hidden;
 }
 .post-header{
    display: flex;
     flex-direction:row;
     width: 100%;
+    padding: 8px 8px 8px 8px;
 }
 .post-action-menu{
     flex-grow: 2;
@@ -20,4 +25,17 @@ body{
 .post-control{
     display:flex;
     flex-direction:row;
+}
+.post-header .post-avatar-img{
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.post-header .post-avatar-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+   
 }
