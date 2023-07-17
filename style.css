@@ -7,35 +7,38 @@ body{
 .post{
     display: flex;
     background-color: white;
-    width: 470px;
+    width: 450px;
     flex-direction: column; 
     overflow: hidden;
 }
-.post-header{
+.post .post-header{
    display: flex;
-    flex-direction:row;
-    width: 100%;
-    padding: 8px 8px 8px 8px;
+   align-items: center;
+   justify-content: space-between;
+   margin: 5px;
 }
-.post-action-menu{
-    flex-grow: 2;
-    display: flex;
-    justify-content: flex-end;
+.post .information{
+    display: block;
 }
-.post-control{
-    display:flex;
-    flex-direction:row;
+.post .information p{
+float: right;
+margin-left: 5px;
+margin: 5px;
 }
-.post-header .post-avatar-img{
-    width: 42px;
-    height: 42px;
-    overflow: hidden;
-    border-radius: 100%;
-}
-.post-header .post-avatar-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.post .post-img img{
+    height: auto;
     max-width: 100%;
-   
+    object-fit: cover;
+}
+.post .post-content-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 5px
+}
+.post-info{
+    margin-left: 5px;
+}
+.post-content{
+    margin: 5px;
 }
