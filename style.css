@@ -10,6 +10,7 @@ body{
     width: 450px;
     flex-direction: column; 
     overflow: hidden;
+    margin:100px;
 }
 .post .post-header{
    display: flex;
